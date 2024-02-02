@@ -34,6 +34,6 @@ class CardsController < ApplicationController
     @card = Card.find_by(id: params[:id])
     @card.destroy
     render json: {messange: "The card destroyed"}
-  end
+  en
 
 end
