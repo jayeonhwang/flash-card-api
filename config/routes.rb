@@ -5,6 +5,15 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "/bundles" => "bundles#index"
+  get "/bundles/:id" => "bundles#show"
   post "/bundles" => "bundles#create"
-  
+  patch "/bundles/:id" => "bundles#update"
+  delete "bundles/:id" => "bundles#destroy"
+
+  get "/cards" => "cards#index"
+  get "/cards/:id" => "cards#show"
+  post "/cards" => "cards#create"
+  patch "/cards/:id" => "cards#update"
+  delete "cards/:id" => "cards#destroy"
+
 end

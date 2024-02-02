@@ -1,2 +1,4 @@
-json.extract! card, :id, :created_at, :updated_at
-json.url card_url(card, format: :json)
+json.id card.id
+json.bundle_id card.bundle_id
+json.word card.word
+json.description card.description
