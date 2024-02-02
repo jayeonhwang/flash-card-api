@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bundle_id: 1
+  word: MyString
+  description: MyText
+
+two:
+  bundle_id: 1
+  word: MyString
+  description: MyText
