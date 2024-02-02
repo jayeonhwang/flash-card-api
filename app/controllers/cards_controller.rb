@@ -6,8 +6,8 @@ class CardsController < ApplicationController
   end
 
   def create
+    bundle = Bundle.find_by(name: params[:bundle])
     @card = Card.create(
-      
       bundle_id: params[:bundle_id],
       word: params[:word],
       description: params[:description],
