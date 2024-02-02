@@ -7,6 +7,7 @@ class CardsController < ApplicationController
 
   def create
     @card = Card.create(
+      
       bundle_id: params[:bundle_id],
       word: params[:word],
       description: params[:description],
@@ -34,6 +35,6 @@ class CardsController < ApplicationController
     @card = Card.find_by(id: params[:id])
     @card.destroy
     render json: {messange: "The card destroyed"}
-  en
+  end
 
 end

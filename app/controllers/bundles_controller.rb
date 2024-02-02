@@ -1,4 +1,5 @@
 class BundlesController < ApplicationController
+  before_action :authenticate_user, except: [:index, :show]
 
   def index 
     @bundles = Bundle.all
@@ -8,6 +9,7 @@ class BundlesController < ApplicationController
   def create
     @bundle = Bundle.create(
       title: params[:title],
+      user_id: current_user.id
     )
     render :show
   end
