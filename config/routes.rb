@@ -3,12 +3,15 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  # config/routes.rb
 
   get "/bundles" => "bundles#index"
   get "/bundles/:id" => "bundles#show"
   post "/bundles" => "bundles#create"
   patch "/bundles/:id" => "bundles#update"
   delete "bundles/:id" => "bundles#destroy"
+
+  get "/mybundles" => "bundles#user_index"
 
   get "/cards" => "cards#index"
   get "/cards/:id" => "cards#show"
@@ -18,4 +21,5 @@ Rails.application.routes.draw do
 
   post "/users" => "users#create"
   post "/sessions" => "sessions#create"
+
 end

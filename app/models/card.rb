@@ -1,3 +1,3 @@
 class Card < ApplicationRecord
-  belongs_to :supplier
+  belongs_to :bundle
 end

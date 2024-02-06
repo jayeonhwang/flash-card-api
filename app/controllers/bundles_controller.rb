@@ -6,6 +6,12 @@ class BundlesController < ApplicationController
     render :index
   end
 
+  def user_index
+    @bundles = current_user.bundles
+    render :index
+  end
+
+
   def create
     @bundle = Bundle.create(
       title: params[:title],

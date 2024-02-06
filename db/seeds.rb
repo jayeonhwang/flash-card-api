@@ -9,28 +9,28 @@
 
 #Create user
 
-User.Create!(
+User.create!(
   name: "user1",
   email: "capitals@email.com",
   password: "password",
   password_confirmation: "password"
   )
 
-User.Create!(
+User.create!(
   name: "User2",
   email: "pokemon@email.com",
   password: "password",
   password_confirmation: "password"
   )
 
-User.Create!(
+User.create!(
   name: "user3",
   email: "movies@email.com",
   password: "password",
   password_confirmation: "password"
   )
 
-#create bundle
+ #create bundle
 
 Bundle.create!(
   title:"State captitals in US",
@@ -56,6 +56,7 @@ Bundle.create!(
 Card.create!(
   bundle_id: 1,
   word: "Alabama",
+  image: nil,
   description: "Montgomery"
 )
 Card.create!(
@@ -67,43 +68,51 @@ Card.create!(
 Card.create!(
   bundle_id: 1,
   word:"Colorado",
+  image: nil,
   description: "denver"
 )
 Card.create!(
   bundle_id: 1,
   word:"Florida",
+  image: nil,
   description: "Tallahassee"
 )
 Card.create!(
   bundle_id: 1,
   word:"Georgia",
+  image: nil,
   description:"Atlanta"
 )
 Card.create!(
   bundle_id: 1,
   word:"Hawaii",
+  image: nil,
   description: "Honolulu"
 )
 Card.create!(
   bundle_id: 1,
   word:"Illinois",
+  image: nil,
   description: "Springfield"
 )
 Card.create!(
   bundle_id: 1,
   word: "Iowa",
+  image: nil,
   description: "Des Moines"
 )
 
 Card.create!(
   bundle_id: 1,
   word:"Mississippi",
+  image: nil,
   description: "Jackson"
 )
 
 Card.create!(
   bundle_id: 1,
   word:"New Jersey",
+  image: nil,
   description: "Trenton"
 )
 
@@ -111,51 +120,61 @@ Card.create!(
 Card.create!(
   bundle_id: 2,
   word:"Mexico",
+  image: nil,
   description: "Mexico City"
 )
 Card.create!(
   bundle_id: 2,
   word:"Denmark",
+  image: nil,
   description: "Copenhagen"
 )
 Card.create!(
   bundle_id: 2,
   word:"Portugal",
+  image: nil,
   description: "Lisbon"
 )
 Card.create!(
   bundle_id: 2,
   word:"India",
+  image: nil,
   description: "New Delhi"
 )
 Card.create!(
   bundle_id: 2,
   word:"Finland",
+  image: nil,
   description: "Helsinki"
 )
 Card.create!(
   bundle_id: 2,
   word:"Egypt",
+  image: nil,
   description: "Cairo"
 )
 Card.create!(
   bundle_id: 2,
   word:"Czech Republic",
+  image: nil,
   description: "Prague"
 )
 Card.create!(
   bundle_id: 2,
   word:"Sweden",
+  image: nil,
   description: "Stockholm"
 )
 Card.create!(
   bundle_id: 2,
   word:"Norway",
+  image: nil,
   description: "Oslo"
 )
 Card.create!(
   bundle_id: 2,
   word:"Poland",
+  image: nil,
   description: "Warsaw"
 )
 
@@ -214,52 +233,55 @@ Card.create!(
 )
 
 
-Card.creat!(
+Card.create!(
   bundle_id: 4,
-  word: "🐍 🦍 🐅 📖"
+  word: "🐍 🦍 🐅 📖",
   description: "Jungle Book"
 )
-Card.creat!(
+Card.create!(
   bundle_id: 4,
-  word: "🎈 🎈 🏠"
+  word: "🎈 🎈 🏠",
   description: "Up"
 )
-Card.creat!(
+Card.create!(
   bundle_id: 4,
-  word: "🌎  🦍 🦍 🦍"
+  word: "🌎  🦍 🦍 🦍",
   description: "Palnet of the Apes"
 )
-Card.creat!(
+Card.create!(
   bundle_id: 4,
-  word: "🔎 🐠"
+  word: "🔎 🐠",
   description: "Finding Nemo"
 )
-Card.creat!(
+Card.create!(
   bundle_id: 4,
-  word: "🩸 💎"
+  word: "🩸 💎",
   description: "Blood Diamond"
-Card.creat!(
+)
+
+Card.create!(
   bundle_id: 4,
-  word: "🦁 👑"
+  word: "🦁 👑",
   description: "Lion King"
 )
-Card.creat!(
+Card.create!(
   bundle_id: 4,
-  word: "🧑🏾‍🦳 🐯 🌊 🛶"
+  word: "🧑🏾‍🦳 🐯 🌊 🛶",
   description: "Life of pie"
 )
-Card.creat!(
+
+Card.create!(
   bundle_id: 4,
-  word: "👻 🔫"
+  word: "👻 🔫",
   description: "Ghost Busters"
 )
-Card.creat!(
+Card.create!(
   bundle_id: 4,
-  word: "🦕 ⛰️"
+  word: "🦕 ⛰️",
   description: "Jurassic Park"
 )
-Card.creat!(
+Card.create!(
   bundle_id: 4,
-  word: "💃 🕺🏼 🎶 🌴"
+  word: "💃 🕺🏼 🎶 🌴",
   description: "La La Land"
 )

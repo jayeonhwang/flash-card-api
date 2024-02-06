@@ -11,6 +11,7 @@ class CardsController < ApplicationController
       bundle_id: params[:bundle_id],
       word: params[:word],
       description: params[:description],
+      image: params{:image}
     )
     render :show
   end
@@ -25,7 +26,8 @@ class CardsController < ApplicationController
     @card.update(
       bundle_id: params[:bundle_id] || @card.bundle_id,
       word: params[:word] || @card.word,
-      description: params[:description] || @card.description
+      description: params[:description] || @card.description,
+      image: params{:image} || @card.image
     )
     render :show
   end
