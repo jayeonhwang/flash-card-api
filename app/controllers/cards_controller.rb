@@ -6,12 +6,11 @@ class CardsController < ApplicationController
   end
 
   def create
-    bundle = Bundle.find_by(name: params[:bundle])
     @card = Card.create(
       bundle_id: params[:bundle_id],
-      word: params[:word],
-      description: params[:description],
-      image: params{:image}
+      question: params[:question],
+      answer: params[:answer],
+      image: params[:image]
     )
     render :show
   end
@@ -25,8 +24,8 @@ class CardsController < ApplicationController
     @card = Card.find_by(id:params[:id])
     @card.update(
       bundle_id: params[:bundle_id] || @card.bundle_id,
-      word: params[:word] || @card.word,
-      description: params[:description] || @card.description,
+      question: params[:question] || @card.question,
+      answer: params[:answer] || @card.answer,
       image: params{:image} || @card.image
     )
     render :show
@@ -39,4 +38,7 @@ class CardsController < ApplicationController
     render json: {messange: "The card destroyed"}
   end
 
+  
 end
+
+

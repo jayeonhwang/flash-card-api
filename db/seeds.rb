@@ -55,233 +55,234 @@ Bundle.create!(
 
 Card.create!(
   bundle_id: 1,
-  word: "Alabama",
+  question: "Alabama",
   image: nil,
-  description: "Montgomery"
+  answer: "Montgomery"
 )
 Card.create!(
   bundle_id: 1,
-  word:"California",
-  description: "Sacramento"
+  question:"California",
+  answer: "Sacramento"
 )
 
 Card.create!(
   bundle_id: 1,
-  word:"Colorado",
+  question:"Colorado",
   image: nil,
-  description: "denver"
+  answer: "denver"
 )
 Card.create!(
   bundle_id: 1,
-  word:"Florida",
+  question:"Florida",
   image: nil,
-  description: "Tallahassee"
+  answer: "Tallahassee"
 )
 Card.create!(
   bundle_id: 1,
-  word:"Georgia",
+  question:"Georgia",
   image: nil,
-  description:"Atlanta"
+  answer:"Atlanta"
 )
 Card.create!(
   bundle_id: 1,
-  word:"Hawaii",
+  question:"Hawaii",
   image: nil,
-  description: "Honolulu"
+  answer: "Honolulu"
 )
 Card.create!(
   bundle_id: 1,
-  word:"Illinois",
+  question:"Illinois",
   image: nil,
-  description: "Springfield"
+  answer: "Springfield"
 )
 Card.create!(
   bundle_id: 1,
-  word: "Iowa",
+  question: "Iowa",
   image: nil,
-  description: "Des Moines"
+  answer: "Des Moines"
 )
 
 Card.create!(
   bundle_id: 1,
-  word:"Mississippi",
+  question:"Mississippi",
   image: nil,
-  description: "Jackson"
+  answer: "Jackson"
 )
 
 Card.create!(
   bundle_id: 1,
-  word:"New Jersey",
+  question:"New Jersey",
   image: nil,
-  description: "Trenton"
+  answer: "Trenton"
 )
 
 
 Card.create!(
   bundle_id: 2,
-  word:"Mexico",
+  question:"Mexico",
   image: nil,
-  description: "Mexico City"
+  answer: "Mexico City"
 )
 Card.create!(
   bundle_id: 2,
-  word:"Denmark",
+  question:"Denmark",
   image: nil,
-  description: "Copenhagen"
+  answer: "Copenhagen"
 )
 Card.create!(
   bundle_id: 2,
-  word:"Portugal",
+  question:"Portugal",
   image: nil,
-  description: "Lisbon"
+  answer: "Lisbon"
 )
 Card.create!(
   bundle_id: 2,
-  word:"India",
+  question:"India",
   image: nil,
-  description: "New Delhi"
+  answer: "New Delhi"
 )
 Card.create!(
   bundle_id: 2,
-  word:"Finland",
+  question:"Finland",
   image: nil,
-  description: "Helsinki"
+  answer: "Helsinki"
 )
 Card.create!(
   bundle_id: 2,
-  word:"Egypt",
+  question:"Egypt",
   image: nil,
-  description: "Cairo"
+  answer: "Cairo"
 )
 Card.create!(
   bundle_id: 2,
-  word:"Czech Republic",
+  question:"Czech Republic",
   image: nil,
-  description: "Prague"
+  answer: "Prague"
 )
 Card.create!(
   bundle_id: 2,
-  word:"Sweden",
+  question:"Sweden",
   image: nil,
-  description: "Stockholm"
+  answer: "Stockholm"
 )
 Card.create!(
   bundle_id: 2,
-  word:"Norway",
+  question:"Norway",
   image: nil,
-  description: "Oslo"
+  answer: "Oslo"
 )
 Card.create!(
   bundle_id: 2,
-  word:"Poland",
+  question:"Poland",
   image: nil,
-  description: "Warsaw"
+  answer: "Warsaw"
 )
 
 
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
-  description: "Bulbasaur"
+  answer: "Bulbasaur"
 )
 
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
-  description: "Charmander"
+  answer: "Charmander"
 )
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
-  description: "Squirtle"
+  answer: "Squirtle"
 )
 
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/054.png",
-  description:"Psyduck"
+  answer:"Psyduck"
 )
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png",
-  description: "Butterfree"
+  answer: "Butterfree"
 )
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/052.png",
-  description:"Meowth"
+  answer:"Meowth"
 )
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
-  description:"Pidgey"
+  answer:"Pidgey"
 )
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
-  description:"Pikachu"
+  answer:"Pikachu"
 )
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
-  description:"Vulpix"
+  answer:"Vulpix"
 )
 Card.create!(
   bundle_id: 3,
   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png",
-  description:"jigglypuff"
+  answer:"jigglypuff"
 )
 
 
 Card.create!(
   bundle_id: 4,
-  word: "🐍 🦍 🐅 📖",
-  description: "Jungle Book"
+  question: "🐍 🦍 🐅 📖",
+  answer: "Jungle Book"
 )
 Card.create!(
   bundle_id: 4,
-  word: "🎈 🎈 🏠",
-  description: "Up"
+  question: "🎈 🎈 🏠",
+  answer: "Up"
 )
 Card.create!(
   bundle_id: 4,
-  word: "🌎  🦍 🦍 🦍",
-  description: "Palnet of the Apes"
+  question: "🌎  🦍 🦍 🦍",
+  answer: "Palnet of the Apes"
 )
 Card.create!(
   bundle_id: 4,
-  word: "🔎 🐠",
-  description: "Finding Nemo"
+  question: "🔎 🐠",
+  answer: "Finding Nemo"
 )
 Card.create!(
   bundle_id: 4,
-  word: "🩸 💎",
-  description: "Blood Diamond"
+  question: "🩸 💎",
+  answer: "Blood Diamond"
 )
 
 Card.create!(
   bundle_id: 4,
-  word: "🦁 👑",
-  description: "Lion King"
+  question: "🦁 👑",
+  answer: "Lion King"
 )
 Card.create!(
   bundle_id: 4,
-  word: "🧑🏾‍🦳 🐯 🌊 🛶",
-  description: "Life of pie"
+  question: "🧑🏾‍🦳 🐯 🌊 🛶",
+  answer: "Life of pie"
 )
 
 Card.create!(
   bundle_id: 4,
-  word: "👻 🔫",
-  description: "Ghost Busters"
+  question: "👻 🔫",
+  answer: "Ghost Busters"
 )
 Card.create!(
   bundle_id: 4,
-  word: "🦕 ⛰️",
-  description: "Jurassic Park"
+  question: "🦕 ⛰️",
+  answer: "Jurassic Park"
 )
 Card.create!(
   bundle_id: 4,
-  word: "💃 🕺🏼 🎶 🌴",
-  description: "La La Land"
+  question: "💃 🕺🏼 🎶 🌴",
+  answer: "La La Land"
 )
+

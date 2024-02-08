@@ -2,10 +2,10 @@
 
 one:
   bundle_id: 1
-  word: MyString
-  description: MyText
+  question: MyString
+  answer: MyText
 
 two:
   bundle_id: 1
-  word: MyString
-  description: MyText
+  question: MyString
+  answer: MyText
