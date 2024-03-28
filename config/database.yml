@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: flash_card_api_production
   username: flash_card_api
   password: <%= ENV["FLASH_CARD_API_DATABASE_PASSWORD"] %>

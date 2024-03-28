@@ -10,21 +10,21 @@
 #Create user
 
 User.create!(
-  name: "user1",
+  name: "CapitalScholar",
   email: "capitals@email.com",
   password: "password",
   password_confirmation: "password"
   )
 
 User.create!(
-  name: "User2",
+  name: "Meowth",
   email: "pokemon@email.com",
   password: "password",
   password_confirmation: "password"
   )
 
 User.create!(
-  name: "user3",
+  name: "MovieBuffLove",
   email: "movies@email.com",
   password: "password",
   password_confirmation: "password"
