@@ -2,10 +2,10 @@
 
 one:
   card_id: 1
-  answer: MyString
-  correct: false
+  option: MyString
+  iscorrect: false
 
 two:
   card_id: 1
-  answer: MyString
-  correct: false
+  option: MyString
+  iscorrect: false

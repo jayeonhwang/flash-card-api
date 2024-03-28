@@ -15,6 +15,7 @@ class CardsController < ApplicationController
     render :show
   end
 
+
   def show
     @card = Card.find_by(id: params[:id])
     render :show
